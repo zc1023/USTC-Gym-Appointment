@@ -26,8 +26,8 @@ class USTCPassportLogin(object):
         try:
             CAS_LT = self._get_cas_lt()
             login_data = {
-                'username': username,
-                'password': password,
+                'username': PB19030889,
+                'password': zhouchao1023,
                 'warn': '',
                 'CAS_LT': CAS_LT,
                 'showCode': '',
