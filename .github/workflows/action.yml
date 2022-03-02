@@ -2,7 +2,7 @@ name: USTC Gym Appointment
 on: 
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: '00 16 * * *'
 jobs:
