@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Python 3.6
-        uses: actions/setup_python@v2
+    
         with:
           python-version: 3.6
       - name: install requirements
